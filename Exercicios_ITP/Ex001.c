@@ -15,6 +15,9 @@ int main(){
         if(palavra[i] == ' '){
             palavra[i+1] = toupper(palavra[i + 1]);
         }
+        else{
+            palavra[i + 1] = tolower(palavra[i + 1]);
+        } 
         i++;
     }
 
